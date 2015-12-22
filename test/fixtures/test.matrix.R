@@ -1,9 +1,9 @@
 options( digits = 16 )
 library( jsonlite )
 
-m = 1
-n = 1
-k = 1
+m = 25
+n = 21
+k = 10
 probs = 0:24 / 25
 y = qhyper( probs, m, n, k )
 

@@ -2,9 +2,9 @@ options( digits = 16 )
 library( jsonlite )
 
 
-m = 1
-n = 1
-k = 1
+m = 8
+n = 4
+k = 3
 probs = seq( 0, 1, 0.01 )
 y = qhyper( probs, m, n, k )
 
