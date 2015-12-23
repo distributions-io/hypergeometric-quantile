@@ -4,6 +4,9 @@ Quantile Function
 
 > [Hypergeometric](https://en.wikipedia.org/wiki/hypergeometric_distribution) distribution [quantile function](https://en.wikipedia.org/wiki/Quantile_function).
 
+
+Imagine a scenario with an urn holding black and white balls. Let `m` be the number of white balls in the urn and `n` be the number of black balls. We draw `k` balls from the urn. Defining the random variable `X` as the number of white balls drawn in total, `X` is said to follow a [hypergeometric distribution](https://en.wikipedia.org/wiki/Hypergeometric_distribution). 
+
 The [quantile function](https://en.wikipedia.org/wiki/Quantile_function) for a [hypergeometric](https://en.wikipedia.org/wiki/hypergeometric_distribution) random variable returns for any `0 <= p <= 1` the value `x` for which
 
 <div class="equation" align="center" data-raw-text="F(x-1;m,n,k) < p \le F(x;m,n,k)" data-equation="eq:quantile_function">
