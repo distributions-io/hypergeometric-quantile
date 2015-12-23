@@ -7,7 +7,7 @@ Quantile Function
 The [quantile function](https://en.wikipedia.org/wiki/Quantile_function) for a [hypergeometric](https://en.wikipedia.org/wiki/hypergeometric_distribution) random variable returns for any `0 <= p <= 1` the value `x` for which
 
 <div class="equation" align="center" data-raw-text="F(x-1;m,n,k) < p \le F(x;m,n,k)" data-equation="eq:quantile_function">
-	<img src="" alt="Quantile function for a hypergeometric distribution.">
+	<img src="https://cdn.rawgit.com/distributions-io/hypergeometric-quantile/6efc95757698c1d2636981c8b4561e4139335e32/docs/img/eqn.svg" alt="Quantile function for a hypergeometric distribution.">
 	<br>
 </div>
 
